@@ -19,7 +19,7 @@ dotcfg push -u origin main
 ## Set alias permanantly
 - bash: `echo "alias dotcfg='git --git-dir=$HOME/.dotcfg/ --work-tree=$HOME'" >> .bashrc`
 - zsh: `echo "alias dotcfg='git --git-dir=$HOME/.dotcfg/ --work-tree=$HOME'" >> .zshrc`
-- fish: `alias --save dotcfg='git --git-dir=$HOME/.dotcfg/ --work-tree=$HOME'
+- fish: `alias --save dotcfg='git --git-dir=$HOME/.dotcfg/ --work-tree=$HOME'`
 
 
 # Reproduction
